@@ -2,9 +2,9 @@
 
 ## Mandatory in any project
 
-1. [A language manager config file](#language-version-manager);
+1. A [language version manager](#language-version-manager);
 1. [Editorconfig](#editorconfig);
-1. [A Linting tool](#linting-tool);
+1. A [linting tool](#linting-tool);
 
 ### Language version manager
 
