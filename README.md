@@ -1,4 +1,4 @@
-# MIKAMAI's official Code Dress Code
+# MIKAMAI Dress Code
 
 ## Mandatory in any project
 
