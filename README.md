@@ -1,6 +1,6 @@
 # MIKAMAI's official Code Dress Code
 
-## What any project should contain
+## Mandatory in any project
 
 1. [A language manager config file](#language-version-manager);
 1. [Editorconfig](#editorconfig);
