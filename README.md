@@ -18,4 +18,4 @@ We use [Editorconfig](http://editorconfig.org) to keep the same coding standard 
 
 ### Linting tool
 
-For javascript we use [ESLint](eslint.org). See [our configuration](eslint/).
+For javascript we use [ESLint](https://eslint.org/). See [our configuration](eslint/).
