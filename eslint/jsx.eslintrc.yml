@@ -1,5 +1,7 @@
 ---
 extends: airbnb
+plugins:
+  - redux-saga
 rules:
   no-multi-spaces: 0
   import/prefer-default-export: 0
@@ -10,3 +12,4 @@ rules:
   no-constant-condition:
     - error
     - checkLoops: false
+  redux-saga/no-unhandled-errors: 0
