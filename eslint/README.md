@@ -15,7 +15,7 @@ $ curl -O https://github.com/mikamai/dress-code/raw/master/eslint/.eslintignore
 **JSX projects:**
 
 ```bash
-$ npm install eslint eslint-plugin-import eslint-config-airbnb-base eslint-plugin-react eslint-plugin-jsx-a11y
+$ npm install eslint eslint-plugin-import eslint-config-airbnb-base eslint-plugin-react eslint-plugin-jsx-a11y babel-eslint
 $ curl -o .eslintrc.yml https://github.com/mikamai/dress-code/raw/master/eslint/jsx.eslintrc.yml
 $ curl -O https://github.com/mikamai/dress-code/raw/master/eslint/.eslintignore
 ```
