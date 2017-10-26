@@ -18,4 +18,5 @@ We use [Editorconfig](http://editorconfig.org) to keep the same coding standard 
 
 ### Linting tool
 
-For javascript we use [ESLint](https://eslint.org/). See [our configuration](eslint/).
+For Javascript we use [ESLint](https://eslint.org/). See [our configuration](eslint/).
+For Ruby we use [RuboCop](https://github.com/bbatsov/rubocop). See [our configuration](rubocop/);
