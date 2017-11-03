@@ -1,5 +1,10 @@
 # MIKAMAI Dress Code
 
+## Naming conventions
+
+1. Repositories and git branches should be named with parameterized names, e.g. `winter-is-coming`, not `WinterIsComing`;
+1. Git branches should be prefixed with the name or nickname of the branch creator;
+
 ## Mandatory in any project
 
 1. [A language version manager](#language-version-manager);
