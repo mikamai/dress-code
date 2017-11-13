@@ -126,6 +126,9 @@ Style/BlockDelimiters:
     # are enforced).
     - braces_for_chaining
 
+Style/Documentation:
+  Enabled: false
+
 Style/MethodDefParentheses:
   EnforcedStyle: require_no_parentheses
   SupportedStyles:
