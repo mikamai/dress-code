@@ -1,25 +1,26 @@
-# Cop names are not displayed in offense messages by default. Change behavior
-# by overriding DisplayCopNames, or by giving the `-D/--display-cop-names`
-# option.
-DisplayCopNames: true
+AllCops:
+  # Cop names are not displayed in offense messages by default. Change behavior
+  # by overriding DisplayCopNames, or by giving the `-D/--display-cop-names`
+  # option.
+  DisplayCopNames: true
 
-# Style guide URLs are not displayed in offense messages by default. Change
-# behavior by overriding `DisplayStyleGuide`, or by giving the
-# `-S/--display-style-guide` option.
-DisplayStyleGuide: true
+  # Style guide URLs are not displayed in offense messages by default. Change
+  # behavior by overriding `DisplayStyleGuide`, or by giving the
+  # `-S/--display-style-guide` option.
+  DisplayStyleGuide: true
 
-# Extra details are not displayed in offense messages by default. Change
-# behavior by overriding ExtraDetails, or by giving the
-# `-E/--extra-details` option.
-ExtraDetails: true
+  # Extra details are not displayed in offense messages by default. Change
+  # behavior by overriding ExtraDetails, or by giving the
+  # `-E/--extra-details` option.
+  ExtraDetails: true
 
-# What MRI version of the Ruby interpreter is the inspected code intended to
-# run on? (If there is more than one, set this to the lowest version.)
-# If a value is specified for TargetRubyVersion then it is used.
-# Else if .ruby-version exists and it contains an MRI version it is used.
-# Otherwise we fallback to the oldest officially supported Ruby version (2.1).
-TargetRubyVersion: **to customzie**
-TargetRailsVersion: **to customzie**
+  # What MRI version of the Ruby interpreter is the inspected code intended to
+  # run on? (If there is more than one, set this to the lowest version.)
+  # If a value is specified for TargetRubyVersion then it is used.
+  # Else if .ruby-version exists and it contains an MRI version it is used.
+  # Otherwise we fallback to the oldest officially supported Ruby version (2.1).
+  TargetRubyVersion: **to customzie**
+  TargetRailsVersion: **to customzie**
 
 # Align the elements of a hash literal if they span more than one line.
 Layout/AlignHash:
@@ -125,6 +126,9 @@ Style/BlockDelimiters:
     # are enforced).
     - braces_for_chaining
 
+Style/Documentation:
+  Enabled: false
+
 Style/MethodDefParentheses:
   EnforcedStyle: require_no_parentheses
   SupportedStyles:
@@ -141,7 +145,7 @@ Style/Semicolon:
   AllowAsExpressionSeparator: true
 
 Metrics/LineLength:
-  Max: 80
+  Max: 100
   # To make it possible to copy or click on URIs in the code, we allow lines
   # containing a URI to be longer than Max.
   AllowHeredoc: true
@@ -173,4 +177,3 @@ Lint/EndAlignment:
     - variable
     - start_of_line
   AutoCorrect: false
-
