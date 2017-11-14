@@ -3,7 +3,7 @@
 ## Naming conventions
 
 1. Repositories and git branches should be named with parameterized names, e.g. `winter-is-coming`, not `WinterIsComing`;
-1. Git branches should be prefixed with the name or nickname of the branch creator;
+1. Git branches should be prefixed with the Trello/Jira/WhateverYoureUsing card/issue/feature ID. E.g. `305/awesome-new-feature`.
 
 ## Mandatory in any project
 
