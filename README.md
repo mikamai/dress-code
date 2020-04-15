@@ -2,9 +2,11 @@
 
 ## Mandatory in any project
 
-1. [A language version manager](#language-version-manager);
-1. [Editorconfig](#editorconfig);
-1. [A linting tool](#linting-tool);
+- [MIKAMAI Dress Code](#mikamai-dress-code)
+  - [Mandatory in any project](#mandatory-in-any-project)
+    - [Language version manager](#language-version-manager)
+    - [Editorconfig](#editorconfig)
+    - [Linting tool](#linting-tool)
 
 ### Language version manager
 
@@ -19,4 +21,5 @@ We use [Editorconfig](http://editorconfig.org) to keep the same coding standard 
 ### Linting tool
 
 For Javascript we use [ESLint](https://eslint.org/). See [our configuration](eslint/).
+For Typescript projects we use [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/). See [our configuration](typescript/).
 For Ruby we use [RuboCop](https://github.com/bbatsov/rubocop). See [our configuration](rubocop/);
