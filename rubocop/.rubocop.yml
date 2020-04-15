@@ -129,6 +129,9 @@ Style/BlockDelimiters:
 Style/Documentation:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Style/MethodDefParentheses:
   EnforcedStyle: require_no_parentheses
   SupportedStyles:
